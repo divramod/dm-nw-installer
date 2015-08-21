@@ -11,19 +11,19 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/home/mod/code/dm/dm-nw-installer',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory /home/mod/.npm/dm-nw-installer/0.0.1-1/package.tgz not in flight; packing
-9 verbose tar pack [ '/home/mod/.npm/dm-nw-installer/0.0.1-1/package.tgz',
+8 verbose addLocalDirectory /home/mod/.npm/dm-nw-installer/0.0.1/package.tgz not in flight; packing
+9 verbose tar pack [ '/home/mod/.npm/dm-nw-installer/0.0.1/package.tgz',
 9 verbose tar pack   '/home/mod/code/dm/dm-nw-installer' ]
-10 verbose tarball /home/mod/.npm/dm-nw-installer/0.0.1-1/package.tgz
+10 verbose tarball /home/mod/.npm/dm-nw-installer/0.0.1/package.tgz
 11 verbose folder /home/mod/code/dm/dm-nw-installer
-12 info prepublish dm-nw-installer@0.0.1-1
-13 verbose addLocalTarball adding from inside cache /home/mod/.npm/dm-nw-installer/0.0.1-1/package.tgz
-14 silly cache afterAdd dm-nw-installer@0.0.1-1
-15 verbose afterAdd /home/mod/.npm/dm-nw-installer/0.0.1-1/package/package.json not in flight; writing
-16 verbose afterAdd /home/mod/.npm/dm-nw-installer/0.0.1-1/package/package.json written
+12 info prepublish dm-nw-installer@0.0.1
+13 verbose addLocalTarball adding from inside cache /home/mod/.npm/dm-nw-installer/0.0.1/package.tgz
+14 silly cache afterAdd dm-nw-installer@0.0.1
+15 verbose afterAdd /home/mod/.npm/dm-nw-installer/0.0.1/package/package.json not in flight; writing
+16 verbose afterAdd /home/mod/.npm/dm-nw-installer/0.0.1/package/package.json written
 17 silly publish { private: false,
 17 silly publish   name: 'dm-nw-installer',
-17 silly publish   version: '0.0.1-1',
+17 silly publish   version: '0.0.1',
 17 silly publish   description: '* Shortcut: dmnwi',
 17 silly publish   main: 'index.js',
 17 silly publish   scripts:
@@ -54,21 +54,21 @@
 17 silly publish      'dm-nw-installer': './bin/dm-nw-installer' },
 17 silly publish   readme: '# dm-nw-installer\n* Shortcut: dmnwi\n',
 17 silly publish   readmeFilename: 'README.md',
-17 silly publish   gitHead: 'b8600fe130383da706b14eae77567fee2e823447',
-17 silly publish   _id: 'dm-nw-installer@0.0.1-1',
-17 silly publish   _shasum: 'bbff66fb2d04968d886b04520d32fdc8eec4f9a5',
+17 silly publish   gitHead: '1399421bcb9eb1dda348aa537994056d15afe7d8',
+17 silly publish   _id: 'dm-nw-installer@0.0.1',
+17 silly publish   _shasum: 'c645ec96a4959471bd731a7d71d7f322333d0ad9',
 17 silly publish   _from: '.' }
 18 silly mapToRegistry name dm-nw-installer
 19 silly mapToRegistry using default registry
 20 silly mapToRegistry registry https://registry.npmjs.org/
 21 silly mapToRegistry uri https://registry.npmjs.org/dm-nw-installer
 22 verbose publish registryBase https://registry.npmjs.org/
-23 silly publish uploading /home/mod/.npm/dm-nw-installer/0.0.1-1/package.tgz
+23 silly publish uploading /home/mod/.npm/dm-nw-installer/0.0.1/package.tgz
 24 verbose request uri https://registry.npmjs.org/dm-nw-installer
 25 verbose request sending authorization for write operation
-26 info attempt registry request try #1 at 12:03:48 AM
+26 info attempt registry request try #1 at 12:20:19 AM
 27 verbose request using bearer token for auth
-28 verbose request id 6f75f89aa19e4a92
+28 verbose request id ebbc3e618c5c2301
 29 http request PUT https://registry.npmjs.org/dm-nw-installer
 30 http 503 https://registry.npmjs.org/dm-nw-installer
 31 verbose bad json <?xml version="1.0" encoding="utf-8"?>
@@ -82,7 +82,7 @@
 31 verbose bad json     <h1>Error 503 backend read error</h1>
 31 verbose bad json     <p>backend read error</p>
 31 verbose bad json     <h3>Guru Mediation:</h3>
-31 verbose bad json     <p>Details: cache-fra1248-FRA 1438294294 279188720</p>
+31 verbose bad json     <p>Details: cache-fra1233-FRA 1438295293 946214738</p>
 31 verbose bad json     <hr>
 31 verbose bad json     <p>Varnish cache server</p>
 31 verbose bad json   </body>
@@ -101,48 +101,137 @@
 33 info retry     <h1>Error 503 backend read error</h1>
 33 info retry     <p>backend read error</p>
 33 info retry     <h3>Guru Mediation:</h3>
-33 info retry     <p>Details: cache-fra1248-FRA 1438294294 279188720</p>
+33 info retry     <p>Details: cache-fra1233-FRA 1438295293 946214738</p>
 33 info retry     <hr>
 33 info retry     <p>Varnish cache server</p>
 33 info retry   </body>
 33 info retry </html>
-34 info attempt registry request try #2 at 12:11:44 AM
+34 info attempt registry request try #2 at 12:28:23 AM
 35 verbose request using bearer token for auth
 36 http request PUT https://registry.npmjs.org/dm-nw-installer
-37 http 403 https://registry.npmjs.org/dm-nw-installer
-38 verbose headers { 'content-type': 'application/json',
-38 verbose headers   'cache-control': 'max-age=60',
-38 verbose headers   'content-length': '97',
-38 verbose headers   'accept-ranges': 'bytes',
-38 verbose headers   date: 'Thu, 30 Jul 2015 22:19:38 GMT',
-38 verbose headers   via: '1.1 varnish',
-38 verbose headers   connection: 'keep-alive',
-38 verbose headers   'x-served-by': 'cache-fra1229-FRA',
-38 verbose headers   'x-cache': 'MISS',
-38 verbose headers   'x-cache-hits': '0',
-38 verbose headers   'x-timer': 'S1438294305.096237,VS0,VE473054' }
-39 verbose request invalidating /home/mod/.npm/registry.npmjs.org/dm-nw-installer on PUT
-40 error publish Failed PUT 403
-41 verbose stack Error: "You cannot publish over the previously published version 0.0.1-1." : dm-nw-installer
-41 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:254:14)
-41 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:178:14)
-41 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:344:22)
-41 verbose stack     at Request.emit (events.js:110:17)
-41 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1239:14)
-41 verbose stack     at Request.emit (events.js:129:20)
-41 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1187:12)
-41 verbose stack     at IncomingMessage.emit (events.js:129:20)
-41 verbose stack     at _stream_readable.js:908:16
-41 verbose stack     at process._tickCallback (node.js:355:11)
-42 verbose statusCode 403
-43 verbose pkgid dm-nw-installer
-44 verbose cwd /home/mod/code/dm/dm-nw-installer
-45 error Linux 3.16.0-41-generic
-46 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
-47 error node v0.12.0
-48 error npm  v2.5.1
-49 error code E403
-50 error "You cannot publish over the previously published version 0.0.1-1." : dm-nw-installer
-51 error If you need help, you may report this error at:
-51 error     <http://github.com/npm/npm/issues>
-52 verbose exit [ 1, true ]
+37 http 503 https://registry.npmjs.org/dm-nw-installer
+38 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+38 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+38 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+38 verbose bad json <html>
+38 verbose bad json   <head>
+38 verbose bad json     <title>503 backend read error</title>
+38 verbose bad json   </head>
+38 verbose bad json   <body>
+38 verbose bad json     <h1>Error 503 backend read error</h1>
+38 verbose bad json     <p>backend read error</p>
+38 verbose bad json     <h3>Guru Mediation:</h3>
+38 verbose bad json     <p>Details: cache-fra1243-FRA 1438295787 1579789432</p>
+38 verbose bad json     <hr>
+38 verbose bad json     <p>Varnish cache server</p>
+38 verbose bad json   </body>
+38 verbose bad json </html>
+39 error registry error parsing json
+40 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+40 info retry
+40 info retry <?xml version="1.0" encoding="utf-8"?>
+40 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+40 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+40 info retry <html>
+40 info retry   <head>
+40 info retry     <title>503 backend read error</title>
+40 info retry   </head>
+40 info retry   <body>
+40 info retry     <h1>Error 503 backend read error</h1>
+40 info retry     <p>backend read error</p>
+40 info retry     <h3>Guru Mediation:</h3>
+40 info retry     <p>Details: cache-fra1243-FRA 1438295787 1579789432</p>
+40 info retry     <hr>
+40 info retry     <p>Varnish cache server</p>
+40 info retry   </body>
+40 info retry </html>
+41 info attempt registry request try #3 at 12:37:27 AM
+42 verbose request using bearer token for auth
+43 http request PUT https://registry.npmjs.org/dm-nw-installer
+44 http 503 https://registry.npmjs.org/dm-nw-installer
+45 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+45 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+45 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+45 verbose bad json <html>
+45 verbose bad json   <head>
+45 verbose bad json     <title>503 backend read error</title>
+45 verbose bad json   </head>
+45 verbose bad json   <body>
+45 verbose bad json     <h1>Error 503 backend read error</h1>
+45 verbose bad json     <p>backend read error</p>
+45 verbose bad json     <h3>Guru Mediation:</h3>
+45 verbose bad json     <p>Details: cache-fra1232-FRA 1438296342 316621937</p>
+45 verbose bad json     <hr>
+45 verbose bad json     <p>Varnish cache server</p>
+45 verbose bad json   </body>
+45 verbose bad json </html>
+46 error registry error parsing json
+47 verbose headers { server: 'Varnish',
+47 verbose headers   'retry-after': '0',
+47 verbose headers   'content-type': 'text/html; charset=utf-8',
+47 verbose headers   'content-length': '447',
+47 verbose headers   'accept-ranges': 'bytes',
+47 verbose headers   date: 'Thu, 30 Jul 2015 22:45:42 GMT',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   connection: 'close',
+47 verbose headers   'x-served-by': 'cache-fra1232-FRA',
+47 verbose headers   'x-cache': 'MISS',
+47 verbose headers   'x-cache-hits': '0',
+47 verbose headers   'x-timer': 'S1438295852.975351,VS0,VE489899' }
+48 verbose request invalidating /home/mod/.npm/registry.npmjs.org/dm-nw-installer on PUT
+49 error publish Failed PUT 503
+50 verbose stack SyntaxError: Unexpected token <
+50 verbose stack
+50 verbose stack <?xml version="1.0" encoding="utf-8"?>
+50 verbose stack <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+50 verbose stack  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+50 verbose stack <html>
+50 verbose stack   <head>
+50 verbose stack     <title>503 backend read error</title>
+50 verbose stack   </head>
+50 verbose stack   <body>
+50 verbose stack     <h1>Error 503 backend read error</h1>
+50 verbose stack     <p>backend read error</p>
+50 verbose stack     <h3>Guru Mediation:</h3>
+50 verbose stack     <p>Details: cache-fra1232-FRA 1438296342 316621937</p>
+50 verbose stack     <hr>
+50 verbose stack     <p>Varnish cache server</p>
+50 verbose stack   </body>
+50 verbose stack </html>
+50 verbose stack
+50 verbose stack     at Object.parse (native)
+50 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:205:23)
+50 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:178:14)
+50 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:344:22)
+50 verbose stack     at Request.emit (events.js:110:17)
+50 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1239:14)
+50 verbose stack     at Request.emit (events.js:129:20)
+50 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1187:12)
+50 verbose stack     at IncomingMessage.emit (events.js:129:20)
+50 verbose stack     at _stream_readable.js:908:16
+51 verbose cwd /home/mod/code/dm/dm-nw-installer
+52 error Linux 3.16.0-41-generic
+53 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+54 error node v0.12.0
+55 error npm  v2.5.1
+56 error Unexpected token <
+56 error
+56 error <?xml version="1.0" encoding="utf-8"?>
+56 error <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+56 error  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+56 error <html>
+56 error   <head>
+56 error     <title>503 backend read error</title>
+56 error   </head>
+56 error   <body>
+56 error     <h1>Error 503 backend read error</h1>
+56 error     <p>backend read error</p>
+56 error     <h3>Guru Mediation:</h3>
+56 error     <p>Details: cache-fra1232-FRA 1438296342 316621937</p>
+56 error     <hr>
+56 error     <p>Varnish cache server</p>
+56 error   </body>
+56 error </html>
+57 error If you need help, you may report this error at:
+57 error     <http://github.com/npm/npm/issues>
+58 verbose exit [ 1, true ]
